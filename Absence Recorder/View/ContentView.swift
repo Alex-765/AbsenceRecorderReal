@@ -11,7 +11,7 @@ struct ContentView: View {
     var divisions: [Division]
     @State private var currentDate: Date = Date()
     
-    var body: some View {
+    var body: some View {     
         NavigationView{
             List(divisions, id: \.self.code) { division in
                 DivisionItem(division: division)
