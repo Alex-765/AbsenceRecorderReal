@@ -26,6 +26,7 @@
 		DA90C9C9299572E3007BC2BA /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90C9C8299572E3007BC2BA /* StudentAbsence.swift */; };
 		DA90C9CB29A2A82A007BC2BA /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90C9CA29A2A82A007BC2BA /* Absence.swift */; };
 		DA90C9D129A4C1A6007BC2BA /* DivisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90C9CE29A44680007BC2BA /* DivisionTests.swift */; };
+		DA90C9D329A4C913007BC2BA /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90C9D229A4C913007BC2BA /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		DA90C9C8299572E3007BC2BA /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		DA90C9CA29A2A82A007BC2BA /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 		DA90C9CE29A44680007BC2BA /* DivisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionTests.swift; sourceTree = "<group>"; };
+		DA90C9D229A4C913007BC2BA /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				DA90C9B429860EFD007BC2BA /* Date.swift */,
+				DA90C9D229A4C913007BC2BA /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				DA90C9842983E541007BC2BA /* DivisionsView.swift in Sources */,
 				DA90C9B529860EFD007BC2BA /* Date.swift in Sources */,
 				DA90C9C1298D3804007BC2BA /* RootTabView.swift in Sources */,
+				DA90C9D329A4C913007BC2BA /* FileManager.swift in Sources */,
 				DA90C9C9299572E3007BC2BA /* StudentAbsence.swift in Sources */,
 				DA90C9AF29854947007BC2BA /* Student.swift in Sources */,
 				DA90C9C729956C79007BC2BA /* AbsenceItem.swift in Sources */,

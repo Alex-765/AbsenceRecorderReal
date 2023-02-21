@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Student{
+class Student: Codable{
     let firstName: String
     let surname: String
     let birthday: Date
