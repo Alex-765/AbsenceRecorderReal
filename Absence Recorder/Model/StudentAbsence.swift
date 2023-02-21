@@ -16,13 +16,13 @@ class StudentAbsence: ObservableObject, Codable{
         isAbsent = false
     }
     
-    required init(from decorder: Decorder) throws {
-        let container = try decorder.container(keyedBy: CodingKeys.self)
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
         student = try container.decode(Student.self, forKey: .student)
         isAbsent = try container.decode(Bool.self, forKey: .isAbsent)
     }
     
-    private enum Codingkeys: CodingKey{
+    private enum CodingKeys: CodingKey{
         case student, isAbsent
     }
     
